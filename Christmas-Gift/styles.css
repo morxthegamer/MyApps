@@ -1,0 +1,32 @@
+* {
+    font-family: "Work Sans";
+    font-weight: bold;
+}
+
+body {
+    background: linear-gradient(90deg, greenyellow, red);
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5em;
+}
+
+.text h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    animation: txt 1.5s infinite;
+}
+
+@keyframes txt {
+    50% {
+        color: lightcoral;
+    }
+
+    100% {
+        color: darkcyan;
+    }
+}

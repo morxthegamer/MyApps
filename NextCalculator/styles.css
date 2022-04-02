@@ -1,0 +1,206 @@
+* {
+  font-family: "Manrope";
+  font-weight: bold;
+  color: white;
+}
+
+body {
+  background: linear-gradient(270deg, green, cyan);
+}
+
+.everything {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.thing {
+  width: 260px;
+  height: 56.5px;
+  background-color: black;
+  border: 2.2px solid darkcyan;
+  border-radius: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-style: italic;
+  user-select: none;
+  transition: color 1.5s ease;
+}
+
+.thing:hover {
+  color: rgb(0, 221, 0);
+}
+
+#inp {
+  width: 217.5px;
+  height: 50px;
+  background-color: black;
+  border: 2.2px solid darkcyan;
+  font-size: 50px;
+  user-select: none;
+  transition: color 0.1s ease-in-out;
+}
+
+#inp:hover {
+  color: darkcyan;
+}
+
+.stuff {
+  display: grid;
+  grid-template-columns: repeat(4, 56.5px);
+  justify-content: center;
+  align-items: center;
+}
+
+.plus {
+  width: 56.5px;
+  height: 56.5px;
+  background-color: black;
+  border: 2.2px solid darkcyan;
+}
+
+.minus {
+  width: 56.5px;
+  height: 56.5px;
+  background-color: black;
+  border: 2.2px solid darkcyan;
+}
+
+.mul {
+  width: 56.5px;
+  height: 56.5px;
+  background-color: black;
+  border: 2.2px solid darkcyan;
+}
+
+.divi {
+  width: 56.5px;
+  height: 56.5px;
+  background-color: black;
+  border: 2.2px solid darkcyan;
+}
+
+.thing1 {
+  width: 56.5px;
+  height: 56.5px;
+  background-color: black;
+  border: 2.2px solid darkcyan;
+}
+
+.thing2 {
+  width: 56.5px;
+  height: 56.5px;
+  background-color: black;
+  border: 2.2px solid darkcyan;
+}
+
+.thing3 {
+  width: 56.5px;
+  height: 56.5px;
+  background-color: black;
+  border: 2.2px solid darkcyan;
+}
+
+.cero {
+  width: 56.5px;
+  height: 56.5px;
+  background-color: black;
+  border: 2.2px solid darkcyan;
+}
+
+.submit {
+  width: 16.95em;
+  height: 56.5px;
+  background-color: black;
+  border: 2.2px solid darkcyan;
+  text-transform: uppercase;
+}
+
+.clear {
+  width: 56.5px;
+  height: 56.5px;
+  background-color: black;
+  text-transform: uppercase;
+  border: 2.2px solid darkcyan;
+}
+
+.delete {
+  width: 56.5px;
+  height: 56.5px;
+  background-color: black;
+  text-transform: uppercase;
+  border: 2.2px solid darkcyan;
+}
+
+.thing1:hover {
+  border: 2.2px solid darkcyan;
+  background-color: white;
+  color: black;
+}
+
+.thing2:hover {
+  border: 2.2px solid darkcyan;
+  background-color: white;
+  color: black;
+}
+
+.thing3:hover {
+  border: 2.2px solid darkcyan;
+  background-color: white;
+  color: black;
+}
+
+.plus:hover {
+  border: 2.2px solid darkcyan;
+  background-color: white;
+  color: black;
+}
+
+.minus:hover {
+  border: 2.2px solid darkcyan;
+  background-color: white;
+  color: black;
+}
+
+.mul:hover {
+  border: 2.2px solid darkcyan;
+  background-color: white;
+  color: black;
+}
+
+.divi:hover {
+  border: 2.2px solid darkcyan;
+  background-color: white;
+  color: black;
+}
+
+.submit:hover {
+  border: 2.2px solid darkcyan;
+  background-color: white;
+  color: black;
+}
+
+.clear:hover {
+  border: 2.2px solid darkcyan;
+  background-color: white;
+  color: black;
+}
+
+.cero:hover {
+  border: 2.2px solid darkcyan;
+  background-color: white;
+  color: black;
+}
+
+.delete:hover {
+  border: 2.2px solid darkcyan;
+  background-color: white;
+  color: black;
+}
+
+.btn {
+  font-size: 100;
+}

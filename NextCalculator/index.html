@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A Good Website">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;800&family=Manrope:wght@800&display=swap" rel="stylesheet"> 
+    <script src="script.js" defer type="text/javascript"></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="everything">
+      <div class="txt">
+        <h1 class="thing">Calculator</h1>
+      </div>
+      <br><br><br><br><br>
+      <input type="text" id="inp" readonly placeholder="Click...">
+      <div class="stuff">
+        <button class="thing1" data-thing>1</button>
+        <button class="thing1" data-thing>2</button>
+        <button class="thing1" data-thing>3</button>
+        <button class="plus" data-thing>+</button>
+        <button class="thing2" data-thing>4</button>
+        <button class="thing2" data-thing>5</button>
+        <button class="thing2" data-thing>6</button>
+        <button class="minus" data-thing>-</button>
+        <button class="thing3" data-thing>7</button>
+        <button class="thing3" data-thing>8</button>
+        <button class="thing3" data-thing>9</button>
+        <button class="mul" data-thing>*</button>
+        <button class="cero" data-thing>0</button>
+        <button class="clear" onclick="clearing()" data-clear>c</button>
+        <button class="delete" onclick="deleting()" data-clear>del</button>
+        <button class="divi" data-thing>/</button>
+        <button class="submit" data-submit>Enter</button>
+      </div>
+    </div>
+  </body>
+</html>

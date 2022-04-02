@@ -1,0 +1,11 @@
+{
+  "name": "moneygame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "python Files/main.py"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,19 @@
+article h1, p, .p2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dmode {
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-weight: bold;
+    border: 10%;
+    border-color: green;
+}
+
+.dark {
+    color: white;
+    background-color: black;
+}

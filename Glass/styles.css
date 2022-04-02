@@ -1,0 +1,18 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "";
+    background-color: rgba(0,0,0,.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0,0,0,.4);
+    border: 5px solid ;
+}
